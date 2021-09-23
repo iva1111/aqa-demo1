@@ -6,14 +6,14 @@ import static org.testng.Assert.*;
 
 public class CashbackHackServiceTest {
 
-    @Test
+    /*@Test
     public void shouldReturn250IfAmountIs750() {
         CashbackHackService service = new CashbackHackService();
         int amount = 750;
         int expected = 250;
         int actual = service.remain(amount);
         assertEquals(actual, expected);
-    }
+    }*/
 
     @Test
     public void shouldReturn0IfAmountIs1000 () {
@@ -24,7 +24,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @Test
+/*    @Test
     public void shouldReturn1IfAmountIs999() {
         CashbackHackService service = new CashbackHackService();
         int amount = 999;
@@ -40,7 +40,7 @@ public class CashbackHackServiceTest {
         int expected = 0;
         int actual = service.remain(amount);
         assertEquals(actual, expected);
-    }
+    }*/
 
 
 }
